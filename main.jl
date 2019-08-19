@@ -24,7 +24,7 @@ FixedRunningCosts = [WIND, SOLAR, COAL, GAS, NUCLEAR]
 
 ScalingRunningCosts = [0, 0,COAL, GAS, NUCLEAR]
 
-# M O D E L N A M E
+# M O D E L N A M E 
 
     😂 = Model(with_optimizer(Gurobi.Optimizer, Presolve=0, OutputFlag=0))
 
